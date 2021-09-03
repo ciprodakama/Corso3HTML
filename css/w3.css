@@ -574,7 +574,7 @@ a {
 .w3-bar {
     width: 100%;
     overflow: hidden;
-    background-color: #777;
+    background-color: #000;
 }
 
 .w3-center .w3-bar {
@@ -599,7 +599,7 @@ a {
 
 .w3-bar .w3-button {
     white-space: normal;
-    color: #000
+    color: #777
 }
 
 .w3-bar-block .w3-bar-item {
