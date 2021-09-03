@@ -25,13 +25,14 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.9;
 }
 
 
 /* First image (Logo. Full height) */
 
 .bgimg-1 {
-    background-image: url("../img/mainphoto.jpg");
+    background-image: url("../img/mainphoto2.jpeg");
     min-height: 100%;
 }
 
@@ -49,6 +50,12 @@ html {
 .bgimg-3 {
     background-image: url("../img/contact.jpg");
     min-height: 400px;
+}
+
+.bgimg-1:hover,
+.bgimg-2:hover,
+.bgimg-3:hover {
+    opacity: 1;
 }
 
 .ptfimg {
