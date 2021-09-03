@@ -11,7 +11,7 @@ h6 {
 body,
 html {
     height: 100%;
-    color: #777;
+    color: #000;
     line-height: 1.8;
 }
 
@@ -25,7 +25,6 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.9;
 }
 
 
@@ -50,12 +49,6 @@ html {
 .bgimg-3 {
     background-image: url("../img/contact.jpg");
     min-height: 400px;
-}
-
-.bgimg-1:hover,
-.bgimg-2:hover,
-.bgimg-3:hover {
-    opacity: 1;
 }
 
 .ptfimg {
