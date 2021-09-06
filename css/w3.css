@@ -622,6 +622,11 @@ a {
     width: 100%
 }
 
+.w3-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .w3-responsive {
     display: block;
     overflow-x: auto
