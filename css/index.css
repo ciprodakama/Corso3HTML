@@ -80,6 +80,7 @@ html {
 .ptfbar:hover p {
     cursor: pointer;
     color: black
+    /**/
 }
 
 .w3-wide {
