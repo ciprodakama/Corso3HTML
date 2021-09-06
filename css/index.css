@@ -14,7 +14,9 @@ html {
 
 .bgimg-1,
 .bgimg-2,
-.bgimg-3 {
+.bgimg-3,
+.bgimg-4,
+.bgimg-5 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,7 +35,7 @@ html {
 /* Second image (Portfolio) */
 
 .bgimg-2 {
-    background-image: url("../img/portfolio.jpg");
+    background-image: url("../img/photoC.jpg");
     min-height: 400px;
 }
 
@@ -46,12 +48,12 @@ html {
 }
 
 .bgimg-4 {
-    background-image: url("../img/mainphoto.jpg");
+    background-image: url("../img/prgC.jpg");
     min-height: 400px;
 }
 
 .bgimg-5 {
-    background-image: url("../img/large-travel-map-of-romania.jpg");
+    background-image: url("../img/teachC.jpg");
     min-height: 400px;
 }
 
@@ -73,6 +75,11 @@ html {
     height: auto;
     padding: 10px;
     border-radius: 16px;
+}
+
+.ptfbar:hover p {
+    cursor: pointer;
+    color: black
 }
 
 .w3-wide {

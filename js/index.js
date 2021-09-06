@@ -48,4 +48,5 @@ $(".ptfbar").click(function() {
     console.log(new_x);
     console.log(content_ID);
     $('#' + content_ID).css("display", "block");
+    $(location).attr('href', '#' + content_ID);
 });
