@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-<title>CIP</title>
+<title>CIP-CIP ME</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" type="image/png" href="img/favicon.png" />
+<link rel="icon" type="image/png" href="img/faviconcontact.png" />
 <link rel="stylesheet" href="css/index.css">
 <link rel="stylesheet" href="css/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
@@ -19,9 +19,8 @@
                 <i class="fa fa-bars"></i>
             </a>
             <a href="index.html" class="w3-bar-item w3-button">HOME</a>
-            <a href="index.html/#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-            <a href="index.html/#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
-            <a href="index.html/#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+            <a href="index.html#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+            <a href="index.html#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
             <a href="https://www.instagram.com/mr.g_cip/" class="w3-bar-item w3-button w3-hide-medium w3-hide-small w3-right w3-red" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
             <a href="https://it.linkedin.com/in/georgecipriantelinoiu" class="w3-bar-item w3-button w3-hide-medium w3-hide-small w3-right w3-yellow" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
             <a href="https://www.facebook.com/telinoiu.georgeciprian/" class="w3-bar-item w3-button w3-hide-medium w3-hide-small w3-right w3-blue" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
@@ -31,7 +30,6 @@
         <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
             <a href="index.html/#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
             <a href="index.html/#photoC" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-            <a href="index.html/#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
         </div>
     </div>
 
@@ -51,26 +49,26 @@
                     <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right contact"></i> Email: info@cip.com<br>
                 </div>
                 <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
-                <form action="/action_page.php" target="_blank">
+                <form action="https://formspree.io/f/xjvjjprn" method="POST" target="_blank">
                     <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
                         <div class="w3-half">
                             <input class="w3-input w3-border w3-round-large" type="text" placeholder="Name" required name="Name">
                         </div>
                         <div class="w3-half">
-                            <input class="w3-input w3-border w3-round-large" type="text" placeholder="Email" required name="Email">
+                            <input class="w3-input w3-border w3-round-large" type="email" placeholder="Email" required name="Email">
                         </div>
                     </div>
                     <input class="w3-input w3-border w3-round-large" type="text" placeholder="Message" required name="Message">
-                    <button class="w3-button w3-black w3-right w3-section w3-round-large" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
+                    <button class="w3-button w3-black w3-right w3-section w3-round-large" type="submit" onclick="setTimeout(function () { window.location.reload(); }, 5)">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
                 </form>
             </div>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+    <footer class="w3-center w3-black w3-padding-32 w3-opacity w3-hover-opacity-off">
         <a href="index.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Back to main page</a>
         <div class="w3-xlarge w3-section">
             <a href="https://www.facebook.com/telinoiu.georgeciprian/" class="w3-hide-large" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
