@@ -77,6 +77,10 @@ html {
     border-radius: 16px;
 }
 
+.ptfbar {
+    border-radius: 10px;
+}
+
 .ptfbar:hover p {
     cursor: pointer;
     color: black
