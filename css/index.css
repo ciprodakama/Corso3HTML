@@ -45,6 +45,28 @@ html {
     min-height: 400px;
 }
 
+.bgimg-4 {
+    background-image: url("../img/mainphoto.jpg");
+    min-height: 400px;
+}
+
+.bgimg-5 {
+    background-image: url("../img/large-travel-map-of-romania.jpg");
+    min-height: 400px;
+}
+
+#prgC {
+    display: none;
+}
+
+#photoC {
+    display: none;
+}
+
+#teachC {
+    display: none;
+}
+
 .ptfimg {
     display: flex;
     width: 100%;

@@ -6,6 +6,16 @@ function onClick(element) {
     captionText.innerHTML = element.alt;
 }
 
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
 // Change style of navbar on scroll
 window.onscroll = function() {
     myFunction()
@@ -29,3 +39,13 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+
+$(".ptfbar").click(function() {
+    var x = this.id;
+    new_x = x.slice(0, -1);
+    content_ID = new_x.concat("C")
+    console.log(x);
+    console.log(new_x);
+    console.log(content_ID);
+    $('#' + content_ID).css("display", "block");
+});
