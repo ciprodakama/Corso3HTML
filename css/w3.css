@@ -627,6 +627,12 @@ a {
     flex-wrap: wrap;
 }
 
+.w3-flex-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .w3-responsive {
     display: block;
     overflow-x: auto

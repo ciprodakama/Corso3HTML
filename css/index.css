@@ -58,15 +58,15 @@ html {
 }
 
 #prgC {
-    display: none;
+    display: block;
 }
 
 #photoC {
-    display: none;
+    display: block;
 }
 
 #teachC {
-    display: none;
+    display: block;
 }
 
 .ptfimg {
