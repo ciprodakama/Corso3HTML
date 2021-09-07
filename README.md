@@ -1,6 +1,7 @@
 # PersonalPortfolio
 
-The following project represents a personal development based on the templates of [w3schools](https://www.w3schools.com/w3css/w3css_templates.asp).<br>
+The following project represents a personal development based on the templates of [w3schools](https://www.w3schools.com/w3css/w3css_templates.asp).
+<br>
 
 The page is structured in a very simple fashion:
 * An index page contating my personal information and my portfolio, with personal projects, my CV and my social pages;
