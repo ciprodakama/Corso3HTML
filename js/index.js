@@ -47,6 +47,7 @@ $(".ptfbar").click(function() {
     console.log(x);
     console.log(new_x);
     console.log(content_ID);
+    $('#QR').css("display", "none");
     $('#' + content_ID).css("display", "block");
     $(location).attr('href', '#' + content_ID);
 });
@@ -60,4 +61,5 @@ $(".ptfB").click(function() {
     //console.log(content_ID);
     $('#' + content_ID).css("display", "none");
     $(location).attr('href', '#' + content_ID);
+    $('#QR').css("display", "block");
 });

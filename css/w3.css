@@ -279,7 +279,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Segoe UI", Arial, sans-serif;
+    font-family: 'Comfortaa';
     font-weight: 400;
     margin: 10px 0
 }
@@ -631,7 +631,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    align-items: centerf;
 }
 
 .w3-responsive {
