@@ -1,14 +1,3 @@
-* {
-    font-family: 'Comfortaa';
-}
-
-body,
-html {
-    height: 100%;
-    color: #000;
-    line-height: 1.8;
-}
-
 footer {
     position: absolute;
     bottom: 0;
@@ -16,22 +5,4 @@ footer {
     height: 60px;
     /* Height of the footer */
     background: #000;
-}
-
-
-/* Create a Parallax Effect */
-
-.bgimg-3 {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-/* Third image (Contact) */
-
-.bgimg-3 {
-    background-image: url("../img/contact.jpg");
-    min-height: 400px;
 }
