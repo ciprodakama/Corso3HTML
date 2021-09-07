@@ -9,6 +9,18 @@ html {
     line-height: 1.8;
 }
 
+#prgC {
+    display: none;
+}
+
+#photoC {
+    display: none;
+}
+
+#teachC {
+    display: none;
+}
+
 
 /* Create a Parallax Effect */
 
@@ -27,46 +39,40 @@ html {
 /* First image (Logo. Full height) */
 
 .bgimg-1 {
-    background-image: url("../img/mainphoto2.jpeg");
+    background-image: url("../img/mainphoto.jpeg");
     min-height: 100%;
 }
 
 
-/* Second image (Portfolio) */
+/* Second image (Programming) */
 
 .bgimg-2 {
+    background-image: url("../img/prgC.jpg");
+    min-height: 400px;
+}
+
+
+/* Third image (Photography) */
+
+.bgimg-3 {
     background-image: url("../img/photoC.jpg");
     min-height: 400px;
 }
 
 
-/* Third image (Contact) */
-
-.bgimg-3 {
-    background-image: url("../img/contact.jpg");
-    min-height: 400px;
-}
+/* Forth image (Teaching) */
 
 .bgimg-4 {
-    background-image: url("../img/prgC.jpg");
-    min-height: 400px;
-}
-
-.bgimg-5 {
     background-image: url("../img/teachC.jpg");
     min-height: 400px;
 }
 
-#prgC {
-    display: block;
-}
 
-#photoC {
-    display: block;
-}
+/* Fifth image (Conctact) */
 
-#teachC {
-    display: block;
+.bgimg-5 {
+    background-image: url("../img/contact.jpg");
+    min-height: 400px;
 }
 
 .ptfimg {
@@ -85,6 +91,14 @@ html {
     cursor: pointer;
     color: black
     /**/
+}
+
+.techicon {
+    font-size: 48px;
+}
+
+.techicon2 {
+    font-size: 32px;
 }
 
 .w3-wide {

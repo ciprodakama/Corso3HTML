@@ -43,10 +43,21 @@ function toggleFunction() {
 $(".ptfbar").click(function() {
     var x = this.id;
     new_x = x.slice(0, -1);
-    content_ID = new_x.concat("C")
+    content_ID = new_x.concat("C");
     console.log(x);
     console.log(new_x);
     console.log(content_ID);
     $('#' + content_ID).css("display", "block");
+    $(location).attr('href', '#' + content_ID);
+});
+
+$(".ptfB").click(function() {
+    var x = this.id;
+    new_x = x.slice(0, -1);
+    content_ID = new_x.concat("C");
+    //console.log(x);
+    //console.log(new_x);
+    //console.log(content_ID);
+    $('#' + content_ID).css("display", "none");
     $(location).attr('href', '#' + content_ID);
 });
