@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html>
-<title>CIP</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" type="image/png" href="img/favicon.png" />
-<link rel="apple-touch-icon" href="img/favicon.png" />
-<link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="css/w3.css">
-<link rel="stylesheet" href="css/index.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="https://kit.fontawesome.com/277b360b3c.js" crossorigin="anonymous"></script>
+
+<!-- Start Head -->
+
+<head>
+    <title>CIP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/favicon.png" />
+
+    <!-- CSS Modules -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/277b360b3c.js" crossorigin="anonymous"></script>
+</head>
+
+<!-- StartBody -->
 
 <body>
 
@@ -43,6 +58,8 @@
 
     <!-- Container (About Section) -->
     <div class="w3-content w3-container w3-padding-64" id="about">
+
+        <!-- Personal Description -->
         <h3 class="w3-center">ABOUT ME</h3>
         <p class="w3-center"><em>The Engineer you won't expect</em></p>
         <div class="w3-row w3-flex w3-center">
@@ -58,6 +75,8 @@
                 </p>
             </div>
         </div>
+
+        <!-- Portfolio Menu -->
         <div id="portfolio">
             <p class="w3-large w3-center w3-padding-16">Here you can check out my skills<br> Just click on any of them and you'll be able learn more!</p>
 
@@ -73,8 +92,8 @@
                 <p class="w3-wide"><i class="fa fa-user"></i>Teaching</p>
             </div>
         </div>
-
     </div>
+    <!-- Programming Content -->
     <div id="prgC">
         <div class="bgimg-2 w3-display-container w3-opacity-min">
             <div class="w3-display-middle">
@@ -86,6 +105,7 @@
             <h3 class="w3-center">MY PROJECTS</h3>
             <p class="w3-center"><em>Here's a list with my main projects <br> with their respective technologies<br> Click on the images to reach the GitHub Repo!</em></p><br>
 
+            <!-- Bachelor Project -->
             <div class="w3-row w3-flex w3-center">
                 <div class="w3-col m4 w3-padding-large" style="align-self: center;">
                     <p class="w3-blue w3-round-medium"><b><i class="fa fa-car w3-margin-right"></i>DuckieTown</b></p>
@@ -106,6 +126,8 @@
                     </div>
                 </div>
             </div>
+
+            <!-- FilmAdvisor Project -->
             <div class="w3-row w3-flex w3-center">
                 <div class="w3-col m8 w3-padding-large w3-flex-center" style="align-self: center;">
                     <div class="w3-row w3-flex w3-center">
@@ -130,6 +152,8 @@
                     <p><i>Click image to learn more!</i></p>
                 </div>
             </div>
+
+            <!-- YOLO Project -->
             <div class="w3-row w3-flex w3-center">
                 <div class="w3-col m4 w3-padding-large" style="align-self: center;">
                     <p class="w3-red w3-round-medium"><b><i class="fas fa-brain w3-margin-right"></i>YOLO</b></p>
@@ -153,10 +177,15 @@
                 </div>
             </div>
         </div>
+
+        <!-- Shrink Programming Section Button -->
         <p class="w3-flex-center">
             <button class="w3-button w3-blue ptfB" id="prgB"><i class="fas fa-compress-alt"></i></button>
         </p>
     </div>
+
+
+    <!-- Photography Content -->
     <div id="photoC">
         <div class="bgimg-3 w3-display-container w3-opacity-min">
             <div class="w3-display-middle">
@@ -183,6 +212,7 @@
                 </div>
             </div>
 
+            <!-- Second Row of Images -->
             <div class="w3-row-padding w3-center w3-section">
                 <div class="w3-col m4">
                     <img src="img/photo4.jpeg" onclick="onClick(this)" class="w3-hover-opacity ptfimg" alt="Palazzo Reale">
@@ -196,6 +226,7 @@
                     <img src="img/photo6.jpg" onclick="onClick(this)" class="w3-hover-opacity ptfimg" alt="Piazza del Plebiscito">
                 </div>
             </div>
+
             <!-- Modal for full size images on click-->
             <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
                 <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
@@ -205,16 +236,25 @@
                 </div>
             </div>
         </div>
+
+        <!-- Shrink Photo Section Button -->
         <p class="w3-flex-center">
             <button class="w3-button w3-yellow ptfB" id="photoB" style="color: black;"><i class="fas fa-compress-alt"></i></button>
         </p>
     </div>
+
+
+    <!-- Teaching Content -->
     <div id="teachC">
+
+        <!-- Parallax Image -->
         <div class="bgimg-4 w3-display-container w3-opacity-min">
             <div class="w3-display-middle">
                 <span class="w3-xxlarge w3-text-black w3-wide">TEACHING</span>
             </div>
         </div>
+
+        <!-- Images with description row -->
         <div class="w3-content w3-container w3-padding-64">
             <h3 class="w3-center">MY EXPERIENCES</h3>
             <p class="w3-center"><em>Here you'll find the story about my volunteering journey!</em></p>
@@ -257,10 +297,15 @@
                 </div>
             </div>
         </div>
+
+        <!-- Shrink Teach Section Button -->
         <p class="w3-flex-center">
             <button class="w3-button w3-red ptfB" id="teachB" style="color: black;"><i class="fas fa-compress-alt"></i></button>
         </p>
     </div>
+
+
+    <!-- CV QR & Download -->
     <div id="QR">
         <h5 class="w3-center">If you like what you see,<br>You can also check my CV by scanning this QR Code!</h3>
             <div class="w3-row w3-flex-center">
@@ -271,6 +316,8 @@
             </p>
     </div>
     <br>
+
+
     <!-- Footer -->
     <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
         <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
@@ -280,8 +327,11 @@
             <a href="https://it.linkedin.com/in/georgecipriantelinoiu" class="w3-hide-large" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
         </div>
     </footer>
+
+    <!--Jquery & JS Scripts to be loaded last -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/index.js"></script>
+
 </body>
 
 </html>
