@@ -631,7 +631,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: centerf;
+    align-content: center;
 }
 
 .w3-responsive {
