@@ -40,6 +40,7 @@ function toggleFunction() {
     }
 }
 
+// Used to toggle the menu of specific Portolio
 $(".ptfbar").click(function() {
     var x = this.id;
     new_x = x.slice(0, -1);
@@ -47,19 +48,35 @@ $(".ptfbar").click(function() {
     console.log(x);
     console.log(new_x);
     console.log(content_ID);
-    $('#QR').css("display", "none");
-    $('#' + content_ID).css("display", "block");
     $(location).attr('href', '#' + content_ID);
+    $('#' + content_ID).css("display", "block");
+    if ($('#QR').css("display") == "block") {
+        $('#QR').css("display", "none");
+    }
 });
 
+// Used to shrink specific Portolio
 $(".ptfB").click(function() {
     var x = this.id;
     new_x = x.slice(0, -1);
     content_ID = new_x.concat("C");
+    ptf1 = "prgC";
+    ptf2 = "photoC";
+    ptf3 = "teachC";
     //console.log(x);
     //console.log(new_x);
     //console.log(content_ID);
     $('#' + content_ID).css("display", "none");
     $(location).attr('href', '#' + content_ID);
-    $('#QR').css("display", "block");
+    if (($('#QR').css("display") != "none") && ($('#' + content_ID).css("display") != "none")) {
+        $('#QR').css("display", "block");
+    }
+    /*
+    if (($('#' + pt1).css("display") == "block") || ($('#' + pt2).css("display") == "block") || ($('#' + pt3).css("display") == "block"))) {
+        $('#QR').css("display", "none");
+    }
+    else{
+        
+    }
+    */
 });
