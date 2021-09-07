@@ -6,7 +6,7 @@ The page is structured in a very simple fashion:
 * An index page contating my personal information and my portfolio, with personal projects, my CV and my social pages;
 * A contact page that lets users send personal messages directly to my email by completing a simple form.
 <br>
----
+
 The list of technologies used can be found below:
 * HTML & CSS for styling and organizing the webpage;
 * [FontAwesome](https://fontawesome.com/) for all the icons present in the website;
