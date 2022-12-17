@@ -49,10 +49,12 @@ $(".ptfbar").click(function() {
     console.log(new_x);
     console.log(content_ID);
     $(location).attr('href', '#' + content_ID);
+    /*
     $('#' + content_ID).css("display", "block");
     if ($('#QR').css("display") == "block") {
         $('#QR').css("display", "none");
     }
+    */
 });
 
 // Used to shrink specific Portolio
@@ -65,7 +67,9 @@ $(".ptfB").click(function() {
     ptf3 = "teachC";
     $('#' + content_ID).css("display", "none");
     $(location).attr('href', '#' + content_ID);
+    /*
     if (($('#QR').css("display") != "none") && ($('#' + content_ID).css("display") != "none")) {
         $('#QR').css("display", "block");
     }
+    */
 });
