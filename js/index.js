@@ -49,8 +49,8 @@ $(".ptfbar").click(function() {
     console.log(new_x);
     console.log(content_ID);
     $(location).attr('href', '#' + content_ID);
-    /*
     $('#' + content_ID).css("display", "block");
+    /*
     if ($('#QR').css("display") == "block") {
         $('#QR').css("display", "none");
     }
