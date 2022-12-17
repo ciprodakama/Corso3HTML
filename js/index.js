@@ -63,20 +63,9 @@ $(".ptfB").click(function() {
     ptf1 = "prgC";
     ptf2 = "photoC";
     ptf3 = "teachC";
-    //console.log(x);
-    //console.log(new_x);
-    //console.log(content_ID);
     $('#' + content_ID).css("display", "none");
     $(location).attr('href', '#' + content_ID);
     if (($('#QR').css("display") != "none") && ($('#' + content_ID).css("display") != "none")) {
         $('#QR').css("display", "block");
     }
-    /*
-    if (($('#' + pt1).css("display") == "block") || ($('#' + pt2).css("display") == "block") || ($('#' + pt3).css("display") == "block"))) {
-        $('#QR').css("display", "none");
-    }
-    else{
-        
-    }
-    */
 });
